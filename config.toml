@@ -1,11 +1,11 @@
-baseURL = "https://curiositas.fr"
+baseURL = "https://curiositas.me"
 # [en, zh-cn, fr, pl, ...] determines default content language
 
 defaultContentLanguage = "fr"
 
 theme = "LoveIt"
 
-title = "Curiositas"
+title = "Curiositaste"
 
 # whether to use robots.txt
 
