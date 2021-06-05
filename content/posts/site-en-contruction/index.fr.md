@@ -3,7 +3,7 @@ weight: 1
 title: "Site en construction"
 subtitle: ""
 date: 2020-10-03T16:02:43+02:00
-lastmod: 2020-10-03T16:02:43+02:00
+lastmod: 2021-05-06T16:02:43+02:00
 draft: false
 author: "Brian SINQUIN"
 authorLink: ""
@@ -29,7 +29,7 @@ math:
 
 <!--more-->
 
-{{< admonition tip "Paradiselab est en cours de révision" true >}}
+{{< admonition tip "Curiositas est en cours de refonte" true >}}
 
 Le site revient **bientôt** avec du contenu tout neuf !
 

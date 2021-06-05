@@ -90,9 +90,9 @@ enableEmoji = true
         #weight = 6
     [languages.fr.params]
       # site description
-      description = "Scientia potentia est"
+      description = "Science, Technologie et curiosité"
       # site keywords
-      keywords = ["Science", "Blog"]
+      keywords = ["Science", "Blog", "Informatique", "Physique"]
       # App icon config
       [languages.fr.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -332,10 +332,10 @@ enableEmoji = true
     hiddenFromSearch = false
     # whether to enable twemoji
     # 是否使用 twemoji
-    twemoji = false
+    twemoji = true
     # whether to enable lightgallery
     # 是否使用 lightgallery
-    lightgallery = false
+    lightgallery = true
     # whether to enable the ruby extended syntax
     # 是否使用 ruby 扩展语法
     ruby = true
@@ -347,7 +347,7 @@ enableEmoji = true
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
     # 是否显示原始 Markdown 文档内容的链接
-    linkToMarkdown = false
+    linkToMarkdown = true
     # whether to show the full text content in RSS
     # 是否在 RSS 中显示全文内容
     rssFullText = false
@@ -425,7 +425,7 @@ enableEmoji = true
       Pinterest = false
       Tumblr = true
       HackerNews = false
-      Reddit = false
+      Reddit = true
       VK = false
       Buffer = false
       Xing = false
@@ -681,7 +681,7 @@ enableEmoji = true
 # Sitemap config
 # 网站地图配置
 [sitemap]
-  changefreq = "weekly"
+  changefreq = "daily"
   filename = "sitemap.xml"
   priority = 0.5
 
