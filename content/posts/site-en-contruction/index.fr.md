@@ -18,7 +18,8 @@ categories: ["informations"]
 
 lightgallery: true
 
-
+#next: "/posts/typora/index.fr.md"
+#prev: "/posts/typora/index.fr.md"
 
 toc:
   enable: false
