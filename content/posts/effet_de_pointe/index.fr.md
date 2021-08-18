@@ -14,8 +14,8 @@ categories: ["physique", ""]
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-featuredImage: ""
-featuredImagePreview: ""
+featuredImage: "flash-731488_1920.jpg"
+featuredImagePreview: "flash-731488_1920.jpg"
 
 
 toc:
@@ -47,7 +47,6 @@ Imaginons deux boulles métalliques de rayon $R_1$ et $R_2$ présentant à leur 
 
 D'après le théorème de **Gauss** :
 $$
-\
 \epsilon_0 \oiint_C \vec{E} \cdot \vec{dS} = Q
 $$
 
