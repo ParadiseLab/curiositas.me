@@ -47,7 +47,7 @@ Imaginons deux boulles métalliques de rayon $R_1$ et $R_2$ présentant à leur 
 
 D'après le théorème de **Gauss** :
 $$
-\epsilon_0 \oiint_C \vec{E} \cdot \vec{dS} = Q
+\oiint_C \epsilon_0 \vec{E} \cdot \vec{dS} = Q
 $$
 
 Comme on étudie une sphère le champs électrique est radial et constant sur la surface, et donc colinéaire à l'élément vectoriel de surface. On peut ré-écrire l'expression sous la forme :
@@ -88,7 +88,7 @@ $$
 
 Considérons maintenant nos deux boulles comme appartenant à un seul solide conducteur, en les mettant en contact :
 
-> TODO: image
+
 
 Dans cette configuration où les surface se touchent, le potentiel à la surface des boulles est le même, on a donc : $V_1(R_1)=V_2(R_2)$.
 En transformant cette expression on peut exprimer le champ électrique à la surface de la boulles $1$ par rapport à la boulle $2$.
@@ -99,6 +99,7 @@ $$
 
 C'est cette expression finale qui nous permet de conclure sur l'effet de pointe. En effet, si la boulle $2$ est la plus petite, c'est-à-dire $R_2 < R_1$, on dira qu'elle constitue la pointe du système. On peut conclure à partir de l'expression que le champ $E_2$ à proximité de la pointe est plus fort qu'à proximité de l'autre boulle. On a bien démontré l'effet.
 
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/8/85/Effet_pointe.png" caption="[Effet de pointe (Wikipedia Commons)](https://fr.wikipedia.org/wiki/Effet_de_pointe#/media/Fichier:Effet_pointe.png)" >}}
 
 ## Bibliographie
 
