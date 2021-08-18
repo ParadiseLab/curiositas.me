@@ -4,7 +4,7 @@ title: "Electromagnétisme #1"
 subtitle: ""
 date: 2020-10-03T16:02:43+02:00
 lastmod: 2021-05-06T16:02:43+02:00
-draft: false
+draft: true
 author: "Brian SINQUIN"
 authorLink: ""
 description: "Introduction à l'électroagnétisme #1 (en cours de rédaction)"
@@ -14,7 +14,7 @@ categories: ["physique", "cours"]
 
 lightgallery: true
 
-#next: "/posts/typora/index.fr.md"
+prev: "effetdepointe.md"
 #prev: "/posts/typora/index.fr.md"
 
 toc:
