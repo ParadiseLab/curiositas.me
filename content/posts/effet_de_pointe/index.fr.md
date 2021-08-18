@@ -53,7 +53,7 @@ $$
 Comme on étudie une sphère le champs électrique est radial et constant sur la surface, et donc colinéaire à l'élément vectoriel de surface. On peut ré-écrire l'expression sous la forme :
 
 $$
-\oiint_C E(r) \cdot dS = = E(R)\cdot S = Q/\epsilon_0
+\oiint_C E(r) \cdot dS = E(R)\cdot S = Q/\epsilon_0
 $$
 
 Finalement on trouve l'expression : $E(R)=\frac{Q}{4\pi \epsilon_0 R^2}$ . On connait donc la valeur des champs à la surface de nos deux boulles :
