@@ -28,7 +28,9 @@ license: "MIT"
 ---
 
 L'effet de pointe, ou pouvoir de pointe, est la propriété des conducteurs à présenter un champ électrique plus intense sur les extrémités pointus lorsque ceux-ci sont chargés.
+
 <!--more-->
+
 Cet effet est utilisé dans divers applications, la plus connue étant le paratonnerre, qui constitue un objet privilégié pour décharger une atmosphère orageuse par la création d'un éclair. De la même manière, il est préférable d'utiliser deux pointes pour créer un arc électrique, pour des crayons pyrograveurs ou des briquets à plasma par exemple.
 
 ## Phénomène physique
