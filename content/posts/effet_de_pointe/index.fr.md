@@ -17,6 +17,9 @@ hiddenFromSearch: false
 featuredImage: ""
 featuredImagePreview: ""
 
+prev: ""
+next: ""
+
 toc:
   enable: true
 math:
