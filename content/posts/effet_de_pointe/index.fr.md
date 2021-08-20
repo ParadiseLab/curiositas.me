@@ -64,8 +64,6 @@ $$
 
 Gardons à l'esprit qu'à l'intérieur de la boulle, les forces électriques se compensent (on peut le démontrer). On aurait donc $E(r<R)=0$ . À l'extérieur de la boulle la valeur du champ décroit comme l'inverse de la distance au carré comme la force d'attraction gravitationnelle.
 
-> TODO: Schéma E(r)
-
 On calcul ensuite le potentiel électrique à partir du champs :
 
 $$
@@ -78,8 +76,6 @@ $$
 
 On remarque qu'à l'extérieur des boulles, le potentiel évolue comme l'inverse de la distance $R$, à l'intérieur de la boulle le potentiel est constant en revanche.
 
-> TODO: Schéma V(r)
-
 Pour nos deux boulles on a donc :
 
 $$
@@ -88,7 +84,7 @@ $$
 
 Considérons maintenant nos deux boulles comme appartenant à un seul solide conducteur, en les mettant en contact :
 
-
+{{< figure src="schema_pointe.svg" caption="Schéma de principe" >}}
 
 Dans cette configuration où les surface se touchent, le potentiel à la surface des boulles est le même, on a donc : $V_1(R_1)=V_2(R_2)$.
 En transformant cette expression on peut exprimer le champ électrique à la surface de la boulles $1$ par rapport à la boulle $2$.
