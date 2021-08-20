@@ -14,8 +14,8 @@ categories: ["physique", ""]
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-featuredImage: "flash-731488_1920.jpg"
-featuredImagePreview: "flash-731488_1920.jpg"
+featuredImage: "thunder_preview.jpg"
+featuredImagePreview: "thunder_preview.jpg"
 
 
 toc:
