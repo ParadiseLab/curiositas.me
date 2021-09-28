@@ -1,22 +1,17 @@
 ---
 weight: 1
-title: "Ressources Pédagogiques"
+title: "Vulgarisation sur Youtube"
 subtitle: ""
 date: 2020-10-31T16:02:43+02:00
 draft: false
 author: "Brian SINQUIN"
 authorLink: ""
-description: "Ressources Pédagogiques"
+description: "Liste de vulgarisateurs Youtube touchant à divers domaines"
 
 
 
 ---
 
-<!--more-->
-
-# Ressources Pédagogique
-
-Vous trouverez ici un ensemble de liens pointant vers du contenu informatif, vulgarisé ou de différents niveaux. 
 
 ## Vulgarisation sur Youtube
 
