@@ -75,7 +75,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
     weight = 3
   [[menu.main]]
     identifier = "notes"
-    pre = "<i class='fas fa-note'></i>"
+    pre = "<i class='fas fa-sticky-note'></i>"
     post = ""
     name = "Notes"
     url = "https://notes.curiositas.me"
