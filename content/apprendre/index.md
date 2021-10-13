@@ -13,4 +13,4 @@ description: "Ressources Pédagogiques"
 
 Vous trouverez ici un ensemble de liens pointant vers du contenu informatif, vulgarisé ou de différents niveaux. 
 
-> - [Vulgarisation sur Youtube](/apprendre/youtube)
+> - [Vulgarisation sur Youtube](/apprendre_youtube)
