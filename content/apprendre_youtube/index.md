@@ -23,7 +23,7 @@ description: "Liste de vulgarisateurs Youtube touchant à divers domaines"
 * [ScienceEtonnante](https://www.youtube.com/user/ScienceEtonnante)
 * [FEEZ HIC](https://www.youtube.com/channel/UCO4AJQmvWVlDo-Kte6S1OaQ)
 * [Scientia Egregia](https://www.youtube.com/user/antoinebrgt)
-* [Sience silencieuse](https://www.youtube.com/user/cordierphychi)
+* [Science silencieuse](https://www.youtube.com/user/cordierphychi)
 * [Scilabus](https://www.youtube.com/user/scilabus)
 
 {{< /admonition >}}
