@@ -57,7 +57,7 @@ Afin de garder trace de leurs avancées et de leur apprendre à restituer leur t
 
 ## Ce qu'ont appris les étudiants
 
-Les étudiants ne pratique pas souvent ce format d'enseignement à l'université, cette expérience leur à donc apporter de la nouveauté dont un nouveau cadre de travail. Ils ont pu développer de nouvelles compétences, et faire de la science autrement. Voici une liste non-exhaustive de ce qu'ils ont appris :
+Les étudiants ne pratiquent pas souvent ce format d'enseignement à l'université, cette expérience leur a donc apporté de la nouveauté dont un nouveau cadre de travail. Ils ont pu développer de nouvelles compétences, et faire de la science autrement. Voici une liste non-exhaustive de ce qu'ils ont appris :
 
 * Organisation
   * Se répartir des rôles
