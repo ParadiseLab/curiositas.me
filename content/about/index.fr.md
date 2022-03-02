@@ -24,7 +24,7 @@ Bienvenue, dans ce laboratoire des curiosités et bonne balade !!
 
 Vous pouvez nous envoyer vos suggestions qui pourront donner suite à l’écriture d’un **article** !
 
-Contact : jean.claude@yahou.com
+Contact : jean.claude@yahou.com.test
 
 
 {{< /admonition >}}
