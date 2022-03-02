@@ -24,7 +24,7 @@ Bienvenue, dans ce laboratoire des curiosités et bonne balade !!
 
 Vous pouvez nous envoyer vos suggestions qui pourront donner suite à l’écriture d’un **article** !
 
-Contact : ppxlab@gmail.com
+Contact : jean.claude@gmail.com
 
 
 {{< /admonition >}}
