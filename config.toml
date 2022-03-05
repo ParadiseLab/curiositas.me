@@ -58,6 +58,14 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
     title = ""
     weight = 1
   [[menu.main]]
+    identifier = "notes"
+    pre = "<i class='fas fa-notes'></i>"
+    post = ""
+    name = "Notes"
+    url = "https://notes.curiositas.me"
+    title = ""
+    weight = 1
+  [[menu.main]]
     identifier = "about"
     pre = "<i class='fas fa-question'></i>"
     post = ""
