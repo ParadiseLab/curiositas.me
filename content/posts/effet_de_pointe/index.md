@@ -9,7 +9,7 @@ authorLink: "https://www.linkedin.com/in/brian-sinquin/"
 description: "Explication et démonstration de l'effet de pointe dans les conducteurs (métaux)"
 
 tags: []
-categories: ["physique", ""]
+categories: ["physique"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
