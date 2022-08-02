@@ -39,7 +39,7 @@ La finalité est de travailler en mode projet, par étapes, afin de restituer de
 
 ## Déroulement du projet
 
-{{< figure src="https://www.artmail-conseil.com/blog/wp-content/uploads/2009/04/mode_projet1.jpg" caption="[Le mode projet](**[www.ebloo-group.com/pourquoi-le-mode-projet-progresse/](www.ebloo-group.com/pourquoi-le-mode-projet-progresse/)**)" >}}
+{{< figure src="https://www.artmail-conseil.com/blog/wp-content/uploads/2009/04/mode_projet1.jpg" caption="**[Le mode projet](www.ebloo-group.com/pourquoi-le-mode-projet-progresse/)**" >}}
 
 Afin de travailler en mode *projet*, les étudiants ont dus, dans un premier temps, se trouver des noms d'équipes (de 8 membres) et se repartir des rôles. Ils ont ensuite du réfléchir à des idées de grandeurs ou de phénomènes physiques à étudier. Il y a donc plusieurs aspects qu'ils doivent aborder en plus de la composante scientifique : l'organisation, la planification, la mise en œuvre, la distribution des tâches et l'adaptation continue.
 

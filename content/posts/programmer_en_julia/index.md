@@ -8,7 +8,7 @@ authorLink: "https://www.linkedin.com/in/brian-sinquin/"
 description: "Vous utilisez python ? Pourquoi ne pas utiliser Julia ?!"
 
 tags: []
-categories: ["physique", "infoirmatique","programmation"]
+categories: ["physique", "informatique","programmation"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -26,4 +26,4 @@ license: "MIT"
 
 <!--more-->
 
-## Introduction
+## Comming soon ⌚
