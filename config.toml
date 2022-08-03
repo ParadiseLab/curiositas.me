@@ -59,36 +59,54 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # 菜单配置
 [menu]
   [[menu.main]]
-    weight = 1
     identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+    pre = "<i class='fas fa-newspaper'></i>"
     post = ""
-    name = "Posts"
+    name = "Articles"
     url = "/posts/"
-    # title will be shown when you hover on this menu link
-    # 当您将鼠标悬停在此菜单链接上时, 将显示标题
     title = ""
+    weight = 1
   [[menu.main]]
-    weight = 2
-    identifier = "tags"
-    pre = ""
+    identifier = "ressources"
+    pre = "<i class='fas fa-school'></i>"
     post = ""
-    name = "Tags"
-    url = "/tags/"
+    name = "Ressources"
+    url = "/apprendre/"
     title = ""
+    weight = 1
   [[menu.main]]
-    weight = 3
+    identifier = "notes"
+    pre = "<i class='fas fa-book'></i>"
+    post = ""
+    name = "Notes"
+    url = "https://notes.curiositas.me"
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    pre = "<i class='fas fa-question'></i>"
+    post = ""
+    name = "À propos"
+    url = "/about/"
+    title = ""
+    weight = 1
+  [[menu.main]]
     identifier = "categories"
-    pre = ""
+    pre = "<i class='fas fa-folder-open'></i>"
     post = ""
-    name = "Categories"
+    name = "Catégories"
     url = "/categories/"
     title = ""
-
+    weight = 3
+  [[menu.main]]
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-fw'></i>"
+    post = ""
+    name = ""
+    url = "https://github.com/curio-sitas/"
+    title = "GitHub"
+    weight = 6
+    
 [params]
   # site default theme ["auto", "light", "dark"]
   # 网站默认主题 ["auto", "light", "dark"]
