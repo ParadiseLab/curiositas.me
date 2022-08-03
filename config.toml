@@ -135,7 +135,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
       tileColor = "#da532c"
     # Search config
     [params.search]
-      enable = false
+      enable = true
       # type of search engine ("lunr", "algolia")
       type = "algolia"
       # max index length of the chunked content
