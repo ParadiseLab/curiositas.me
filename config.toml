@@ -16,10 +16,10 @@ title = "Curiositas"
 defaultContentLanguage = "fr"
 # language code ["en", "zh-CN", "fr", "pl", ...]
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
+languageCode = "fr"
 # language name ["English", "简体中文", "Français", "Polski", ...]
 # 语言名称 ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
+languageName = "Français"
 # whether to include Chinese/Japanese/Korean
 # 是否包括中日韩文字
 hasCJKLanguage = false
