@@ -219,7 +219,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Search config
   # 搜索配置
   [params.search]
-    enable = true
+    enable = false
     # type of search engine ["lunr", "algolia"]
     # 搜索引擎的类型 ["lunr", "algolia"]
     type = "algolia"
@@ -255,7 +255,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # Home page profile
     # 主页个人信息
     [params.home.profile]
-      enable = true
+      enable = false
       # Gravatar Email for preferred avatar in home page
       # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = ""
@@ -373,10 +373,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     hiddenFromSearch = false
     # whether to enable twemoji
     # 是否使用 twemoji
-    twemoji = false
+    twemoji = true
     # whether to enable lightgallery
     # 是否使用 lightgallery
-    lightgallery = false
+    lightgallery = true
     # whether to enable the ruby extended syntax
     # 是否使用 ruby 扩展语法
     ruby = true
@@ -416,7 +416,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.math]
-      enable = false
+      enable = true
       # default inline delimiter is $ ... $ and \( ... \)
       # 默认行内定界符是 $ ... $ 和 \( ... \)
       inlineLeftDelimiter = ""
@@ -436,7 +436,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.page.mapbox]
       # access token of Mapbox GL JS
       # Mapbox GL JS 的 access token
-      accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+      accessToken = ""
       # style for the light theme
       # 浅色主题的地图样式
       lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
@@ -461,20 +461,20 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
+      Linkedin = true
       Whatsapp = false
       Pinterest = false
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Blogger = false
       Baidu = false
       Odnoklassniki = false
@@ -485,7 +485,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # Comment config
     # 评论系统设置
     [params.page.comment]
-      enable = true
+      enable = false
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
@@ -504,7 +504,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
         appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
         placeholder = ""
@@ -671,7 +671,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Cookie consent config
   # Cookie 许可配置
   [params.cookieconsent]
-    enable = false
+    enable = true
     # text strings used for Cookie consent banner
     # 用于 Cookie 许可横幅的文本字符串
     [params.cookieconsent.content]
@@ -787,188 +787,188 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Multilingual
 # 多语言
-[languages]
-  [languages.en]
-    weight = 1
-    languageCode = "en"
-    languageName = "English"
-    hasCJKLanguage = false
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "Posts"
-        url = "/posts/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categories"
-        url = "/categories/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
-    [languages.en.params]
-      [languages.en.params.search]
-        enable = true
-        type = "algolia"
-        contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 30
-        highlightTag = "em"
-        absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      [languages.en.params.home]
-        rss = 10
-        [languages.en.params.home.profile]
-          enable = true
-          gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
-          title = ""
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
-          typeit = true
-          social = true
-          disclaimer = ""
-      [languages.en.params.social]
-        GitHub = "xxxx"
-        Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
-        Youtubelegacy = "xxxx"
-        Phone = "555-555-555"
-        Email = "xxxx@xxxx.com"
-        RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
-
-  [languages.zh-cn]
-    weight = 2
-    languageCode = "zh-CN"
-    languageName = "简体中文"
-    hasCJKLanguage = true
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.zh-cn.menu]
-      [[languages.zh-cn.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "所有文章"
-        url = "/posts/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "标签"
-        url = "/tags/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "分类"
-        url = "/categories/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        name = "文档"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "关于"
-        url = "/about/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
-    [languages.zh-cn.params]
-      [languages.zh-cn.params.search]
-        enable = true
-        type = "algolia"
-        contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 50
-        highlightTag = "em"
-        absoluteURL = false
-        [languages.zh-cn.params.search.algolia]
-          index = "index.zh-cn"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      [languages.zh-cn.params.home]
-        rss = 10
-        [languages.zh-cn.params.home.profile]
-          enable = true
-          gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
-          title = ""
-          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
-          typeit = true
-          social = true
-          disclaimer = ""
-      [languages.zh-cn.params.social]
-        GitHub = "xxxx"
-        Weibo = "xxxx"
-        Steam = "xxxx"
-        Zhihu = "xxxx"
-        Douban = "xxxx"
-        Devto = "xxxx"
-        Bilibili = "xxxx"
-        Email = "xxxx@xxxx.com"
-        Phone = "555-555-555"
-        RSS = true
+#[languages]
+#  [languages.en]
+#    weight = 1
+#    languageCode = "en"
+#    languageName = "English"
+#    hasCJKLanguage = false
+#    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+#    [languages.en.menu]
+#      [[languages.en.menu.main]]
+#        weight = 1
+#        identifier = "posts"
+#        pre = ""
+#        post = ""
+#        name = "Posts"
+#        url = "/posts/"
+#        title = ""
+#      [[languages.en.menu.main]]
+#        weight = 2
+#        identifier = "tags"
+#        pre = ""
+#        post = ""
+#        name = "Tags"
+#        url = "/tags/"
+#        title = ""
+#      [[languages.en.menu.main]]
+#        weight = 3
+#        identifier = "categories"
+#        pre = ""
+#        post = ""
+#        name = "Categories"
+#        url = "/categories/"
+#        title = ""
+#      [[languages.en.menu.main]]
+#        weight = 4
+#        identifier = "documentation"
+#        pre = ""
+#        post = ""
+#        name = "Docs"
+#        url = "/categories/documentation/"
+#        title = ""
+#      [[languages.en.menu.main]]
+#        weight = 5
+#        identifier = "about"
+#        pre = ""
+#        post = ""
+#        name = "About"
+#        url = "/about/"
+#        title = ""
+#      [[languages.en.menu.main]]
+#        weight = 6
+#        identifier = "github"
+#        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://github.com/dillonzq/LoveIt"
+#        title = "GitHub"
+#    [languages.en.params]
+#      [languages.en.params.search]
+#        enable = true
+#        type = "algolia"
+#        contentLength = 4000
+#        placeholder = ""
+#        maxResultLength = 10
+#        snippetLength = 30
+#        highlightTag = "em"
+#        absoluteURL = false
+#        [languages.en.params.search.algolia]
+#          index = "index.en"
+#          appID = "PASDMWALPK"
+#          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+#      [languages.en.params.home]
+#        rss = 10
+#        [languages.en.params.home.profile]
+#          enable = true
+#          gravatarEmail = ""
+#          avatarURL = "/images/avatar.png"
+#          title = ""
+#          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+#          typeit = true
+#          social = true
+#          disclaimer = ""
+#      [languages.en.params.social]
+#        GitHub = "xxxx"
+#        Twitter = "xxxx"
+#        Instagram = "xxxx"
+#        Facebook = "xxxx"
+#        Telegram = "xxxx"
+#        Youtubelegacy = "xxxx"
+#        Phone = "555-555-555"
+#        Email = "xxxx@xxxx.com"
+#        RSS = true
+#        [languages.en.params.social.Mastodon]
+#          id = "@xxxx"
+#          prefix = "https://mastodon.technology/"
+#
+#  [languages.zh-cn]
+#    weight = 2
+#    languageCode = "zh-CN"
+#    languageName = "简体中文"
+#    hasCJKLanguage = true
+#    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+#    [languages.zh-cn.menu]
+#      [[languages.zh-cn.menu.main]]
+#        weight = 1
+#        identifier = "posts"
+#        pre = ""
+#        post = ""
+#        name = "所有文章"
+#        url = "/posts/"
+#        title = ""
+#      [[languages.zh-cn.menu.main]]
+#        weight = 2
+#        identifier = "tags"
+#        pre = ""
+#        post = ""
+#        name = "标签"
+#        url = "/tags/"
+#        title = ""
+#      [[languages.zh-cn.menu.main]]
+#        weight = 3
+#        identifier = "categories"
+#        pre = ""
+#        post = ""
+#        name = "分类"
+#        url = "/categories/"
+#        title = ""
+#      [[languages.zh-cn.menu.main]]
+#        weight = 4
+#        identifier = "documentation"
+#        pre = ""
+#        name = "文档"
+#        url = "/categories/documentation/"
+#        title = ""
+#      [[languages.zh-cn.menu.main]]
+#        weight = 5
+#        identifier = "about"
+#        pre = ""
+#        post = ""
+#        name = "关于"
+#        url = "/about/"
+#        title = ""
+#      [[languages.zh-cn.menu.main]]
+#        weight = 6
+#        identifier = "github"
+#        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://github.com/dillonzq/LoveIt"
+#        title = "GitHub"
+#    [languages.zh-cn.params]
+#      [languages.zh-cn.params.search]
+#        enable = true
+#        type = "algolia"
+#        contentLength = 4000
+#        placeholder = ""
+#        maxResultLength = 10
+#        snippetLength = 50
+#        highlightTag = "em"
+#        absoluteURL = false
+#        [languages.zh-cn.params.search.algolia]
+#          index = "index.zh-cn"
+#          appID = "PASDMWALPK"
+#          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+#      [languages.zh-cn.params.home]
+#        rss = 10
+#        [languages.zh-cn.params.home.profile]
+#          enable = true
+#          gravatarEmail = ""
+#          avatarURL = "/images/avatar.png"
+#          title = ""
+#          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+#          typeit = true
+#          social = true
+#          disclaimer = ""
+#      [languages.zh-cn.params.social]
+#        GitHub = "xxxx"
+#        Weibo = "xxxx"
+#        Steam = "xxxx"
+#        Zhihu = "xxxx"
+#        Douban = "xxxx"
+#        Devto = "xxxx"
+#        Bilibili = "xxxx"
+#        Email = "xxxx@xxxx.com"
+#        Phone = "555-555-555"
+#        RSS = true
