@@ -34,9 +34,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          julia -e `pwd()`
+          julia -e 'pwd()'
           cd /
-          julia -e `pwd()`
+          julia -e 'pwd()'
           julia make.jl
 
   # Build job
