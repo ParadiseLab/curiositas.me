@@ -10,7 +10,6 @@ JMD = joinpath("../",@__DIR__, "jmd")
 MD_OUTPUT = joinpath(@__DIR__, "content", "posts")
 
 for file in readdir(MD_OUTPUT, join=false)
-    println(file)
     if startswith(file, PREFIX)
         rm(joinpath(MD_OUTPUT,file), recursive=true)
     end
