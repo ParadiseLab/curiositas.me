@@ -28,14 +28,21 @@ defaults:
 jobs:
   # Julia Literate.jl
   literate:
-    runs-on: ubuntu-latest
+        runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        version:
+          - "1"
+        os:
+          - ubuntu-latest
+        arch:
+          - x64
     steps:
       - name: Make Literate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          julia -e 'cd("/")'
-          julia make.jl
+        run: julia make.jl
         shell: bash
   # Build job
   build:
