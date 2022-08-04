@@ -38,6 +38,8 @@ jobs:
           - ubuntu-latest
         arch:
           - x64
+    env:
+      HUGO_VERSION: 0.99.0
     steps:
       - uses: actions/checkout@v2
       - uses: julia-actions/setup-julia@v1
@@ -45,16 +47,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: julia make.jl
-        shell: bash
-      - name: Archive code coverage results
-        uses: actions/upload-artifact@v3
-  # Build job
-  build:
-    needs: literate
-    runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.99.0
-    steps:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb \
