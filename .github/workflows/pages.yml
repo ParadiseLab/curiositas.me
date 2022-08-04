@@ -28,7 +28,7 @@ defaults:
 jobs:
   # Julia Literate.jl
   literate:
-        runs-on: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
@@ -46,6 +46,7 @@ jobs:
         shell: bash
   # Build job
   build:
+    needs: literate
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.99.0
@@ -73,6 +74,7 @@ jobs:
 
   # Deployment job
   deploy:
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
