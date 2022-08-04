@@ -26,6 +26,15 @@ defaults:
     shell: bash
 
 jobs:
+  # Julia Literate.jl
+  literate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Make Literate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: julia make.jl
+
   # Build job
   build:
     runs-on: ubuntu-latest
