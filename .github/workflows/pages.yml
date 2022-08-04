@@ -33,7 +33,9 @@ jobs:
       - name: Make Literate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: julia make.jl
+        run: |
+          cd /
+          julia make.jl
 
   # Build job
   build:
