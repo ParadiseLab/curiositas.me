@@ -19,5 +19,5 @@ end
 
 for file in readdir(JMD; join=false)
     endswith(file, ".jl") || continue
-    Literate.markdown(joinpath(JMD,file), joinpath(MD_OUTPUT,PREFIX*file[1:end-2]), name="index"; execute=true,flavor = Literate.CommonMarkFlavor())
+    Literate.markdown(joinpath(JMD,file), joinpath(MD_OUTPUT,PREFIX*file[1:end-3]), name="index"; execute=true,flavor = Literate.CommonMarkFlavor())
 end
