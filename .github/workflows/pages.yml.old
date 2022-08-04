@@ -30,6 +30,8 @@ jobs:
   literate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - uses: julia-actions/setup-julia@v1
       - name: Make Literate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
