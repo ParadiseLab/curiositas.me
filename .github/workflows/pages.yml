@@ -46,6 +46,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: julia make.jl
         shell: bash
+      - name: Archive code coverage results
+        uses: actions/upload-artifact@v3
   # Build job
   build:
     needs: literate
