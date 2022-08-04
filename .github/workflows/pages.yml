@@ -40,8 +40,8 @@ jobs:
           - x64
     steps:
       - name: Make Literate
-      - uses: actions/checkout@v2
-      - uses: julia-actions/setup-julia@v1
+        uses: actions/checkout@v2
+        uses: julia-actions/setup-julia@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: julia make.jl
