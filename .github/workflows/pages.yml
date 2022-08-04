@@ -27,7 +27,7 @@ defaults:
 
 jobs:
   # Julia Literate.jl
-  literate:
+  build:
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
