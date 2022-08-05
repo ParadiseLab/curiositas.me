@@ -5,7 +5,7 @@ Pkg.add("Plots")
 
 using Literate, Plots
 
-PREFIX = "J_"
+PREFIX = "jmd_"
 JMD = joinpath("../",@__DIR__, "jmd")
 MD_OUTPUT = joinpath(@__DIR__, "content", "posts")
 
@@ -18,5 +18,5 @@ end
 
 for file in readdir(JMD; join=false)
     endswith(file, ".jl") || continue
-    Literate.markdown(joinpath(JMD,file), joinpath(MD_OUTPUT,PREFIX*file[1:end-3]), name="index"; execute=true,flavor = Literate.CommonMarkFlavor())
+    Literate.markdown(joinpath(JMD,file), joinpath(MD_OUTPUT,PREFIX*file[1:end-3]), name="index"; execute=true, flavor = Literate.CommonMarkFlavor())
 end
