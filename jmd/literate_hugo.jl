@@ -27,19 +27,19 @@
 # ## Introduction
 #
 # Julia est un langage de programmation de plus en plus en vogue dans le milieu scientifique et de manière générale. Il combine la rapidité du C/C++ grâce à la **compilation à la volée** (**JIT**: Just-In-Time Compilation) ainsi que l'abstraction et la souplesse syntaxique de **python**.
-# L'ecosystème de ce language s'est developé au cours des dernières années, on peut nottament faire tourner julia sur des notebook Jupyter et l'exporter vers le web via l'utilisation de paquets adéquats : **Documenter.jl**, **Books.jl**, Franklin.jl, **Literate.jl** etc.).
+# L'écosystème de ce language s'est développé au cours des dernières années, on peut notamment faire tourner *julia* sur des notebook Jupyter et l'exporter vers le web via l'utilisation de paquets adéquats : **Documenter.jl**, **Books.jl**, Franklin.jl, **Literate.jl** etc.).
 #
-# J'aimerai moi aussi pouvoir intégrer des blocks de code julia dans mes articles, mais celui-ci est généré de manière statique à l'aide de Hugo, qui ne fait pas parti de l'écosystème julia.
+# J'aimerai moi aussi pouvoir intégrer des blocs de code *julia* dans mes articles, mais celui-ci est généré de manière statique à l'aide de Hugo, qui ne fait pas parti de l'écosystème *julia*.
 # Hugo est un moteur de génération html qui prend des documents markdown comme source de contenu (tout mes articles sont en réalité des fichiers markdown). Hugo s'occupe de générer la structure du site, les hyperliens, et le style CSS.
 #
 #
-# Heureusement il existe un pacquet Julia permettant de transformer un fichier de ce language vers le markdown tout en executant le code et en redant compte du résultat dde cette execution.
+# Heureusement il existe un paquet Julia permettant de transformer un fichier de ce language vers le markdown tout en exécutant le code et en rendant compte du résultat dde cette execution.
 # C'est **Literate.jl** que nous allons utilisé par la suite pour automatiser l'intégration de julia dans un site Hugo.
-# **Literate.jl** ne voit qu'un fichier julia, il va lire directement le code à éxecuter. Pour afficher du markdown directement celu-ci doit être écrit en commentaire julia. C'est-à-dire, après un dièse où en commentaire multi-ligne.
+# **Literate.jl** ne voit qu'un fichier julia, il va lire directement le code à exécuter. Pour afficher du markdown directement celui-ci doit être écrit en commentaire julia. C'est-à-dire, après un dièse où en commentaire multi-ligne.
 # ## Exemples
 #
 # Si mon fichier `exemple.jl` contient le code suivant :
-# ```markdown
+# ```julia
 # using Plots
 #
 # x = -10:0.01:10
@@ -63,12 +63,12 @@ savefig("image.png")
 
 # ![figure](image.png)
 
-# On voit bien que le code est affiché dans un bloc et que je peux afficher l'image `image.png` qui a été générée durant l'éxécution du code.
+# On voit bien que le code est affiché dans un bloc et qu'on peut afficher l'image `image.png` qui a été générée durant l’exécution du code.
 # On peut afficher autre chose que des images :
 A = [[1, 2 , 3], [4, 5, 6], [7, 8, 9]]
 
-# On peut également caché le code éxécuter en ajoutant le commentaire `#hide` après chaque ligne de code.
-# ```markdown
+# On peut également cacher le code exécuté en ajoutant le commentaire `#hide` après chaque ligne de code.
+# ```julia
 # using Plots                       #hide
 # x = -10:0.01:10                   #hide
 # y = sinc.(x)                      #hide
@@ -76,6 +76,7 @@ A = [[1, 2 , 3], [4, 5, 6], [7, 8, 9]]
 # savefig("image.png")              #hide
 
 # # ![figure](image.png)
+# ```
 # # Comment faire ?
 
 #
@@ -106,8 +107,8 @@ A = [[1, 2 , 3], [4, 5, 6], [7, 8, 9]]
 # MD_OUTPUT = joinpath(@__DIR__, "content", "posts") # chemin de de destination
 #
 # for file in readdir(MD_OUTPUT, join=false) # pour chaque sous-dossier dans le contenu
-#     if startswith(file, PREFIX) # verifier que chaqu'un commence par le préfix
-#         rm(joinpath(MD_OUTPUT,file), recursive=true) # Si oui, le suprimer
+#     if startswith(file, PREFIX) # vérifier que chacun commence par le prefix
+#         rm(joinpath(MD_OUTPUT,file), recursive=true) # Si oui, le supprimer
 #     end
 # end
 #
