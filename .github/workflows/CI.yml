@@ -34,6 +34,7 @@ jobs:
       - name: Make Literate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GKSwstype: "100"
         run: |
           julia make.jl
       - name: Setup Hugo CLI
