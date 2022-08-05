@@ -69,14 +69,21 @@ A = [[1, 2 , 3], [4, 5, 6], [7, 8, 9]]
 
 # On peut également cacher le code exécuté en ajoutant le commentaire `#hide` après chaque ligne de code.
 # ```julia
-# using Plots                       #hide
-# x = -10:0.01:10                   #hide
-# y = sinc.(x)                      #hide
-# plot(x,y, color=:black, lw=1);    #hide
-# savefig("image.png")              #hide
+# using Plots                     #hide
+# x = -10:0.01:10                 #hide
+# y = -sinc.(x)                   #hide
+# plot(x,y, color=:red, lw=1);    #hide
+# savefig("image2.png")           #hide
 
-# # ![figure](image.png)
+# # ![figure](image2.png)
 # ```
+using Plots                     #hide
+x = -10:0.01:10                 #hide
+y = -sinc.(x)                   #hide
+plot(x,y, color=:red, lw=1);    #hide
+savefig("image2.png")           #hide
+
+# ![figure](image2.png)
 # ## Comment faire ?
 
 #
