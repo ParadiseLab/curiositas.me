@@ -5,7 +5,7 @@ Pkg.add("Plots")
 
 using Literate, Plots
 
-PREFIX = "JULIA"
+PREFIX = "J_"
 JMD = joinpath("../",@__DIR__, "jmd")
 MD_OUTPUT = joinpath(@__DIR__, "content", "posts")
 

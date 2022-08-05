@@ -51,7 +51,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Author config
 # 作者配置
 [author]
-  name = "xxxx"
+  name = "Brian SINQUIN"
   email = ""
   link = ""
 
@@ -75,14 +75,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     title = ""
     weight = 1
   [[menu.main]]
-    identifier = "notes"
-    pre = "<i class='fas fa-book'></i>"
-    post = ""
-    name = "Notes"
-    url = "https://notes.curiositas.me"
-    title = ""
-    weight = 1
-  [[menu.main]]
     identifier = "about"
     pre = "<i class='fas fa-question'></i>"
     post = ""
@@ -98,6 +90,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     url = "/categories/"
     title = ""
     weight = 3
+  [[menu.main]]
+    identifier = "notes"
+    pre = "<i class='fas fa-book'></i>"
+    post = ""
+    name = "Notes"
+    url = "https://notes.curiositas.me"
+    title = ""
+    weight = 1
   [[menu.main]]
     identifier = "github"
     pre = "<i class='fab fa-github fa-fw'></i>"
