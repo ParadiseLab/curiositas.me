@@ -28,8 +28,11 @@
 
 # Ceci est un exemple de code julia et son résultat une fois exécuté
 using Plots
-
+gr()
 x = 1:0.1:10
 y = sin.(x)
 
-plot(x,y)
+plot(x,y);
+savefig("plot.png")
+
+# ![figure](plot.png)
