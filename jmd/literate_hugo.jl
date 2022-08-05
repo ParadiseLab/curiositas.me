@@ -1,7 +1,7 @@
 # ---
-# title: "Intégrer Julia dans Hugo avec Literate.jl"
-# date: 2022-08-05T15:26:35+02:00
-# lastmod: 2022-08-05T15:26:35+02:00
+# title: "Integrer Julia dans Hugo avec Literate.jl"
+# date: 2022-08-04
+# lastmod: 2022-08-04
 # draft: false
 # author: "Brian SINQUIN"
 # authorLink: "https://www.linkedin.com/in/brian-sinquin/"
