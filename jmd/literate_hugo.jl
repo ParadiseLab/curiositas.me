@@ -77,7 +77,7 @@ A = [[1, 2 , 3], [4, 5, 6], [7, 8, 9]]
 
 # # ![figure](image.png)
 # ```
-# # Comment faire ?
+# # ## Comment faire ?
 
 #
 # J'utilise un système de génération automatisé (Github Workflow) pour mon site, mais la méthode reste la même de manière générale.
